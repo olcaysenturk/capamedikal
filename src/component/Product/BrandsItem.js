@@ -5,22 +5,8 @@ import BackgroundTitle from "../About/BackgroundTitle";
 import BackgroundImage from "../../assets/images/brands-1.png";
 import PaginationList from "react-pagination-list";
 
-class BrandsItem extends Component {
+export default class BrandsItem extends Component {
   state = {
-    data: [
-      {
-        id: 1,
-        name: "Johnson",
-      },
-      {
-        id: 2,
-        name: "David",
-      },
-      {
-        id: 3,
-        name: "Alice",
-      },
-    ],
     brands: JSON.parse(localStorage.getItem("brandItem")),
   };
 
@@ -89,9 +75,3 @@ class BrandsItem extends Component {
     );
   }
 }
-
-function mapStateToProps(state) {
-  console.log(state);
-  return { counter: state.counterReducer };
-}
-export default connect(mapStateToProps)(BrandsItem);

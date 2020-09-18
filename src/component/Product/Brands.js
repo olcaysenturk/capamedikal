@@ -1,38 +1,42 @@
 import React, { Component } from "react";
-import { bindActionCreators} from "redux";
-import { decreaseCounter } from "../../redux/actions/counterActions";
-import { connect } from 'react-redux';
 import { Container, Col, Row } from "reactstrap";
 import BackgroundTitle from "../About/BackgroundTitle";
 import BackgroundImage from "../../assets/images/brands-1.png";
 
-class Brands extends Component {
-    setStorage(brand) {
-        localStorage.setItem("brandItem", JSON.stringify(brand));
-        window.location.href = "/markalar/urunler/" + brand.url;
-        
-    }
-  
-    renderBrands() {
-      return this.props.brands.map((brand) => (
-        <Col className={"animate__animated"} lg={"3"} md={"3"} sm={"6"} xs={"6"} key={brand.id}>
-          <div
-            className={"brands-item"}
-            onClick={e=>{
-                this.setStorage(brand)
-            }}>
-              <div className={"brands-img"}>
-                <img src={brand.path} alt={""} />
-              </div>
-              <h2>{brand.name}</h2>
-          </div>
-        </Col>
-      ));
-    }
+export default class Brands extends Component {
+  setStorage(brand) {
+    localStorage.setItem("brandItem", JSON.stringify(brand));
+    window.location.href = "/markalar/urunler/" + brand.url;
+  }
 
-    render() {
-        return (
-            <div>
+  renderBrands() {
+    return this.props.brands.map((brand) => (
+      <Col
+        className={"animate__animated"}
+        lg={"3"}
+        md={"3"}
+        sm={"6"}
+        xs={"6"}
+        key={brand.id}
+      >
+        <div
+          className={"brands-item"}
+          onClick={(e) => {
+            this.setStorage(brand);
+          }}
+        >
+          <div className={"brands-img"}>
+            <img src={brand.path} alt={""} />
+          </div>
+          <h2>{brand.name}</h2>
+        </div>
+      </Col>
+    ));
+  }
+
+  render() {
+    return (
+      <div>
         <section>
           <BackgroundTitle
             Title={"MARKALAR"}
@@ -41,7 +45,7 @@ class Brands extends Component {
         </section>
         <section className={"brands-box"}>
           <Container>
-          {this.props.counter}
+            {this.props.counter}
             <p>
               Çapa Medikal, yılların getirdiği deneyimiyle Türk sağlık sistemi
               paydaşları için uygun ürünleri sunmaktadır. 3M, Aesculap,
@@ -66,18 +70,6 @@ class Brands extends Component {
           </Container>
         </section>
       </div>
-    
-        )
-    }
+    );
+  }
 }
-
-function mapDispatchToProps(dispatch){
-    console.log({dispatch})
-    return{ 
-        actions: bindActionCreators(decreaseCounter(),dispatch)
-        
-    }
-}
-
-
-export default connect(mapDispatchToProps)(Brands)
