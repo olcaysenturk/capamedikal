@@ -1,0 +1,137 @@
+.career-box {
+  .slide {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    .item {
+      .img-box {
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        vertical-align: top;
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 100%;
+          overflow: hidden;
+        }
+      }
+      .text-box {
+        display: inline-block;
+        width: calc(100% - 150px);
+        margin-left: 35px;
+        font-family: $font;
+        .title {
+          font-size: 25px;
+        }
+        .title-bottom {
+          font-size: 18px;
+          line-height: 22px;
+          margin-bottom: 35px;
+        }
+        .text {
+          font-size: 15px;
+          line-height: 18px;
+          position: relative;
+          margin-bottom: 20px;
+          &:before {
+            content: "";
+            width: 17px;
+            height: 12px;
+            position: absolute;
+            left: -25px;
+            top: -15px;
+            background-image: url("../../images/t1.png");
+          }
+          &:after {
+            content: "";
+            width: 17px;
+            height: 12px;
+            position: absolute;
+            right: 0px;
+            bottom: -15px;
+            background-image: url("../../images/t2.png");
+          }
+        }
+      }
+    }
+    .alice-carousel__prev-btn,
+    .alice-carousel__next-btn {
+      display: none;
+    }
+    .alice-carousel__dots {
+      &-item {
+        border-radius: 0;
+        background: $color-white;
+        border: 1px solid $color-blue-dark;
+        width: 11px;
+        height: 11px;
+      }
+      .__active {
+        background: $color-blue-dark;
+      }
+    }
+  }
+  .form-area {
+    background: $color-blue-dark;
+    .form-box {
+      display: block;
+      margin: 0 auto;
+      width: 650px;
+      @include media(mobil){
+        width: 100%;
+      }
+      .title {
+        font: 600 42px/42px $font;
+        color: $color-blue;
+        padding: 40px 0;
+      }
+      .form-item-box {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        @include media(mobil){
+          width: 100%;
+        }
+        &:last-child {
+          margin-left: 65px;
+          @include media(mobil){
+            margin-left: 0;
+          }
+        }
+        .form-item {
+          margin-bottom: 15px;
+          font: 400 20px/20px $font;
+          input,
+          textarea {
+            width: 100%;
+            background: transparent;
+            border: 1px solid $color-white;
+            height: 38px;
+            padding: 0 10px;
+            color: $color-white;
+            outline: none;
+            @include placeholder {
+              color: $color-white;
+            }
+            
+
+          }
+          textarea {
+            height: 88px;
+            padding: 10px;
+          }
+          .button {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+    .button-area {
+      background: #000c48;
+      padding-bottom: 25px;
+      @include media(mobil){
+        text-align: center;
+      }
+    }
+  }
+}

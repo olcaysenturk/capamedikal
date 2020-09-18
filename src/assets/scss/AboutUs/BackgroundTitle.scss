@@ -1,0 +1,35 @@
+.about-title-area{
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    @include media(web){
+        height: 420px;
+    }
+    .container{
+        position: relative;
+        height: 250px;
+        @include media(web){
+            height: 420px;
+        }
+        
+    }
+    h1{
+        font: 600 24px/24px $font;
+        background: url("../../images/next.png") no-repeat left;
+        background-size: 16px;
+        position: absolute;
+        z-index: 2;
+        color: $color-white;
+        padding-left: 35px;
+        left: 15px;
+        bottom: 40px;
+        @include media(tablet){
+            font: 600 30px/30px $font;
+            left: 0;
+        }
+        @include media(web){
+            font: 600 50px/50px $font;
+        }
+    }
+}

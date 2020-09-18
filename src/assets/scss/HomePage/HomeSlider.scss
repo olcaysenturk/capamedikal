@@ -1,0 +1,75 @@
+.homeslider {
+  @include media(mobil){
+    margin-top: 60px;
+  }
+  .alice-carousel__wrapper {
+    height: 350px;
+    @include media(tablet){
+        height: calc(100vh - 110px);
+    }
+    .sliderItem {
+      width: 100%;
+      height: 100vh;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      .img {
+        width: 100%;
+      }
+    }
+  }
+  .alice-carousel__dots {
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    .alice-carousel__dots-item {
+      border-radius: 0;
+      width: 10px;
+      height: 10px;
+      border: 1px solid $color-blue;
+      background-color: transparent;
+      &.__active {
+        background-color: $color-blue;
+      }
+    }
+  }
+  .alice-carousel__prev-btn,
+  .alice-carousel__next-btn {
+    display: none;
+  }
+
+  .sliderContent {
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 75px);
+    @include media(tablet){
+        top: calc(50% - 115px);
+    }
+    .title {
+      color: $color-blue;
+      font-family: $font;
+      font-weight: 600;
+      font-size: 35px;
+      @include media(tablet){
+        font-size: 65px;
+      }
+    }
+    .text {
+      color: $color-gray;
+      font-family: $font;
+      font-weight: 400;
+      font-size: 16px;
+      margin-top: 20px;
+      @include media(tablet){
+        line-height: 26px;
+        font-size: 20px;
+      }
+      strong {
+        font-weight: 500;
+      }
+    }
+  }
+}

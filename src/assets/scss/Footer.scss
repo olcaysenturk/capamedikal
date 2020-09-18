@@ -1,0 +1,84 @@
+footer {
+  background-color: $color-gray-4;
+  padding-top: 45px;
+  border-bottom: 10px solid $color-black-1;
+  .item-box {
+    display: flex;
+    @include media(mobil){
+        display: block;
+        text-align: center;
+    }
+    .logo,.adress{
+        @include media(mobil){
+            margin-bottom: 30px;
+        }
+    }
+    .footer-menu {
+      width: 125px;
+      @include media(mobil){
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+      li {
+        border-bottom: 1px solid #cfcfcf;
+        padding: 5px 0;
+        a {
+          font: 400 18px/18px $font;
+          color: #848686;
+          text-decoration: none;
+          &:hover {
+            color: $color-black;
+          }
+        }
+      }
+    }
+    .adress {
+      font: 400 18px/22px $font;
+      color: #848686;
+    }
+  }
+  .footerSocial{
+        @include media(mobil){
+            margin-bottom: 30px;
+        }
+      .numberMail{
+          display: block;
+          font: 400 26px/26px $font;
+            color: #848686;
+
+      }
+      ul{
+          display: block;
+          margin-top: 15px;
+          li{
+              display: inline-block;
+              margin-right: 5px;
+              a{
+                  width: 26px;
+                  height: 26px;
+                  border-radius: 100px;
+                  display: block;
+                  background: url("../images/footer-social.png") no-repeat;
+                  &.fb{
+                      background-position: 0 0;
+                  }
+                  &.tw{
+                    background-position: -31px 0px;
+                }
+                &.ins{
+                    background-position: -66px 0;
+                }
+                &.in{
+                    background-position: -101px 0;
+                }
+                &.yt{
+                    background-position: -135px 0;
+                }
+              }
+              &:last-child{
+                margin-right: 0;
+            }
+          }
+      }
+  }
+}

@@ -1,0 +1,136 @@
+.about-us-text {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  p {
+    font: 400 18px/22px $font;
+    margin-bottom: 20px;
+  }
+  strong {
+    font-weight: 500;
+    color: $color-blue;
+    font-size: 22px;
+    font-family: $font;
+    margin-bottom: 15px;
+    display: block;
+  }
+}
+
+.management-team {
+  margin: 50px 0;
+  font-family: $font;
+  .item-box {
+    display: block;
+    margin-bottom: 5px;
+
+    @include media(web) {
+      display: flex;
+      &:nth-child(even) {
+        .item:nth-child(2) {
+          order: 1;
+        }
+        .item:nth-child(1) {
+          order: 2;
+        }
+      }
+      .item {
+        display: flex;
+        flex-direction: row;
+      }
+      .row {
+        width: calc(100% + 30px);
+      }
+    }
+
+    .item-img {
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .item-text {
+      background-color: $color-blue-dark;
+      padding: 75px 55px 50px 55px;
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        background-color: $color-blue;
+        left: 25px;
+        top: 30px;
+        z-index: 1;
+      }
+      strong {
+        font-weight: 500;
+        display: block;
+        color: $color-blue;
+        font-size: 28px;
+        line-height: 28px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+      }
+      span {
+        display: block;
+        font-weight: 400;
+        color: $color-blue;
+        line-height: 28px;
+        font-size: 28px;
+        margin-bottom: 23px;
+        margin-top: 5px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+      }
+      p {
+        color: $color-white;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+.tide-section {
+  margin-top: 65px;
+  margin-bottom: 25px;
+  .tide-box {
+    display: block;
+    margin-bottom: 40px;
+    @include media(tablet) {
+      display: flex;
+      
+    }
+    .item {
+      width: 100%;
+      margin-bottom: 15px;
+      @include media(tablet) {
+        margin-bottom: 0px;
+      }
+      @include media(web) {
+        width: 230px;
+        display: inline-block;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .tide-item {
+      h2 {
+        text-align: left;
+        font-family: $font;
+        color: $color-blue;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 10px;
+      }
+      @include media(tablet) {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      &:nth-child(2) {
+        text-align: center;
+      }
+      &:nth-child(3) {
+        text-align: right;
+      }
+    }
+  }
+}
