@@ -63,9 +63,11 @@ const findClick = () => {
 const mobilMenu = () => {
   const hamburgerMenu = document.querySelector(".hamburger-menu");
   const menuEl = document.querySelector(".main-menu-box");
-  hamburgerMenu.addEventListener("click",function(){
-    menuEl.classList.toggle("open");
-    document.getElementsByTagName("BODY")[0].classList.toggle("no-scroll")
-  })
+  if(hamburgerMenu){
+    hamburgerMenu.addEventListener("click",function(){
+      menuEl.classList.toggle("open");
+      document.getElementsByTagName("BODY")[0].classList.toggle("no-scroll")
+    })
+  }
 }
 
