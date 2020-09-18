@@ -32,9 +32,6 @@ class BrandsItem extends Component {
 
   render() {
     let StorageItem = this.state.brands;
-    {
-      console.log(JSON.parse(localStorage.getItem("brandItem")));
-    }
     return (
       <div>
         <section>

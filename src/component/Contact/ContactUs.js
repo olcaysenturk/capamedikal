@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, {  } from "react";
 import { Container } from "reactstrap";
 import BackgroundTitle from "../About/BackgroundTitle";
 import BackgroundImage from "../../assets/images/contact.png";
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
+import { Map, GoogleApiWrapper } from "google-maps-react";
 
 class ContactUs extends React.Component {
   render() {

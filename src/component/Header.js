@@ -27,7 +27,7 @@ export default class Header extends Component {
                 <a href="/">Anasayfa</a>
               </li>
               <li className="item sub">
-                <a>Kurumsal</a>
+                <a href={"/"}>Kurumsal</a>
                 <div className={"sub-menu"}>
                   <div className={"sub-menu-item-box"}>
                     <div className={"sub-menu-item"}>
@@ -60,7 +60,7 @@ export default class Header extends Component {
                 <a href="/kariyer">Kariyer</a>
               </li>
               <li className="item toNews">
-                <a>Basında Biz</a>
+                <a href={"/"}>Basında Biz</a>
               </li>
               <li className="item">
                 <a href="/iletisim">İletişim</a>

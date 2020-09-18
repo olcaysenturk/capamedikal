@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Container, Col, Row } from "reactstrap";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import images from "../../assets/images/news.jpg";
 import images3 from "../../assets/images/news-3.png";
 import images2 from "../../assets/images/news-2.png";
 import images1 from "../../assets/images/news-1.png";

@@ -115,14 +115,14 @@ export default class Career extends Component {
                         </div>
                         <div className={"form-item"}>
                             <input type={"text"} placeholder={"Özgeçmişiniz"} />
-                            <a className={"button"}>Yükle</a>
+                            <span className={"button"}>Yükle</span>
                         </div>
                     </div>
                 </div>
             </Container>
             <div className={"button-area"}>
             <div className={"form-box"}>
-                <a className={"button"}>Gönder</a>
+                <a href={"/"} className={"button"}>Gönder</a>
             </div>
             </div>
         </div>
