@@ -1,7 +1,7 @@
 {
   "name": "capamedikal",
   "version": "0.1.0",
-  "homepage": "https://capamedikal.herokuapp.com",
+  "homepage": "/anasayfa",
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
@@ -31,6 +31,8 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "^1.6.1",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "file-loader": "4.3.0",
     "findup-sync": "^4.0.0",
     "fs-extra": "^8.1.0",
@@ -46,6 +48,7 @@
     "mini-css-extract-plugin": "0.9.0",
     "node-sass": "^4.14.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
+    "path": "^0.12.7",
     "pnp-webpack-plugin": "1.6.4",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
