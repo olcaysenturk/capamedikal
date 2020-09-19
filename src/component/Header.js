@@ -24,10 +24,10 @@ export default class Header extends Component {
           <div className={"main-menu-box"}>
             <ul className={"main-menu"}>
               <li className="item">
-                <a href="/">Anasayfa</a>
+                <a href="/anasayfa">Anasayfa</a>
               </li>
               <li className="item sub">
-                <a href={"/"}>Kurumsal</a>
+                Kurumsal
                 <div className={"sub-menu"}>
                   <div className={"sub-menu-item-box"}>
                     <div className={"sub-menu-item"}>
