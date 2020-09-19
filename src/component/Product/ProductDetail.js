@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactImageMagnify from 'react-image-magnify';
 import { Container, Col, Row } from "reactstrap";
 import BackgroundTitle from "../About/BackgroundTitle";
 import BackgroundImage from "../../assets/images/brands-1.png";
@@ -33,19 +32,8 @@ export default class ProductDetail extends Component {
                 <Col lg={"6"} md={"6"} sm={"12"} xs={"12"}>
                   <div className={"brands-item"}>
                     <div className={"brands-img"}>
-                      <ReactImageMagnify {...{
-                            smallImage: {
-                                alt: 'Çapa Medikal',
-                                isFluidWidth: true,
-                                src: brandItemDetail.img
-                            },
-                            largeImage: {
-                                src: brandItemDetail.img,
-                                width: 800,
-                                height: 600,
-                               class : "abc"
-                            }
-                        }} />
+                      <img src={brandItemDetail.img} alt={""} />
+                      
                       <span>{brandItemDetail.code}</span>
                     </div>
 
