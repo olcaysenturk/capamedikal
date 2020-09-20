@@ -17,14 +17,14 @@ export default class Header extends Component {
       <div className="Header">
         <Container>
           <div className={"logo"}>
-            <a href="/">
+            <a href="/anasayfa">
               <Media object src={LogoImg} width={160} alt="Logo" />
             </a>
           </div>
           <div className={"main-menu-box"}>
             <ul className={"main-menu"}>
               <li className="item">
-                <a href="/">Anasayfa</a>
+                <a href="/anasayfa">Anasayfa</a>
               </li>
               <li className="item sub">
                 Kurumsal
@@ -60,7 +60,7 @@ export default class Header extends Component {
                 <a href="/kariyer">Kariyer</a>
               </li>
               <li className="item toNews">
-                <a href={"/"}>Basında Biz</a>
+                <a href={"/anasayfa?page=basinda-biz"}>Basında Biz</a>
               </li>
               <li className="item">
                 <a href="/iletisim">İletişim</a>

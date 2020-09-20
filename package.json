@@ -1,7 +1,7 @@
 {
   "name": "capamedikal",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://capamedikal.herokuapp.com/anasayfa",
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
