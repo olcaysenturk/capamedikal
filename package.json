@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "start": "yarn start && node server.js"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
