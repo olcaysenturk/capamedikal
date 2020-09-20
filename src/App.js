@@ -73,7 +73,7 @@ export default class App extends Component {
             <Route path="/hakkimizda">
               <AboutUs />
             </Route>
-            <Route path="/anasayfa">
+            <Route path="/">
               <HomePage brands={this.state.brands} />
             </Route>
           </Switch>
