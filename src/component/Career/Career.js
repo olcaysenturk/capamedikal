@@ -122,7 +122,7 @@ export default class Career extends Component {
             </Container>
             <div className={"button-area"}>
             <div className={"form-box"}>
-                <a href={"/anasayfa"} className={"button"}>Gönder</a>
+                <a href={"/"} className={"button"}>Gönder</a>
             </div>
             </div>
         </div>
