@@ -14,16 +14,17 @@ import BrandsItem from "./component/Product/BrandsItem";
 import ProductDetail from "./component/Product/ProductDetail";
 import Career from "./component/Career/Career";
 import ContactUs from "./component/Contact/ContactUs";
+import json from "./assets/js/brands.json";
 
 export default class App extends Component {
   state = {
-    brands: [],
+    brands: json.brands,
     brandsName: [],
   };
   
 
   getCategories = () => {
-    fetch("http://localhost:3000/brands")
+    fetch(json)
       .then((response) => response.json())
       .then((data) => this.setState({ brands: data }));
   };
@@ -31,6 +32,7 @@ export default class App extends Component {
 
   componentDidMount() {
     this.getCategories();
+    console.log(json)
   }
 
   render() {

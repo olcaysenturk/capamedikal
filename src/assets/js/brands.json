@@ -1,0 +1,388 @@
+{
+  "brands": [
+    {
+      "id" : 1,
+      "name": "3M",
+      "path": "/cdn/images/brands/1.png",
+      "url" : "3m",
+      "info" : "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+      "items":[
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1002",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ABBOT",
+      "path": "/cdn/images/brands/2.png",
+      "url" : "abbot",
+      "info" : "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+      "items":[
+        {
+          "code": "3M-1002",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1002",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AMET",
+      "path": "/cdn/images/brands/3.png",
+      "url" : "amet",
+      "info" : "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+      "items":[
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "BBRAUN",
+      "path": "/cdn/images/brands/4.png",
+      "url" : "bbraun",
+      "info" : "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+      "items":[
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "BD MEDICAL",
+      "path": "/cdn/images/brands/5.png",
+      "url" : "bd-medical",
+      "info" : "Hastalıkların önlenmesine ve iyileşmesine yardımcı olan tıbbi ürünler. Prosedürleri sadeleştiren ve elde edilen sonuçları geliştiren ağız bakımı çözümleri. 3M, sağlık bakımını olumlu yönde geliştirirken, maliyetlerini iyileştiriyor ve hastalarınıza daha iyi bakım sağlamanıza yardımcı oluyor.",
+      "items":[
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        },
+        {
+          "code": "3M-1001",
+          "name" :"MICROPORE 1.25cmx9.14m (KAHVE RENGİ)",
+          "area" : "YARA BAKIM VE ORTOPEDİ",
+          "class" : "FLASTER",
+          "type" : "KAĞIT FLASTER",
+          "bottomBrand" : "MICROPORE",
+          "img" : "http://capamedikal.com/wp-content/uploads/urun/3m-1535-2/3M-1535-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "BD VACUTAINER",
+      "path": "/cdn/images/brands/6.png",
+      "url" : "bd-vacutainer"
+    },
+    {
+      "id": 7,
+      "name": "BEGAMED",
+      "path": "/cdn/images/brands/7.png",
+      "url" : "begamed"
+    },
+    {
+      "id": 8,
+      "name": "BEKSEL",
+      "path": "/cdn/images/brands/8.png",
+      "url" : "beksel"
+    },
+    {
+      "id": 9,
+      "name": "BIÇAKÇILAR",
+      "path": "/cdn/images/brands/9.png",
+      "url" : "bicakcilar"
+    },
+    {
+      "id": 10,
+      "name": "BLUE WHITE",
+      "path": "/cdn/images/brands/10.png",
+      "url" : "blue-white"
+    },
+    {
+      "id": 11,
+      "name": "BOZ",
+      "path": "/cdn/images/brands/11.png",
+      "url" : "boz"
+    },
+    {
+      "id": 12,
+      "name": "CHITOTECH",
+      "path": "/cdn/images/brands/12.png",
+      "url" : "chitotech"
+    }
+  ]
+}
