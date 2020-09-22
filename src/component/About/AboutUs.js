@@ -4,8 +4,8 @@ import BackgroundTitle from "./BackgroundTitle";
 import BackgroundImage from "../../assets/images/about-1.jpg";
 
 export default class AboutUs extends Component {
-  document.title = "Çapa Medikal - Hakkımızda";
   render() {
+    document.title = "Çapa Medikal - Hakkımızda";
     return (
       <div>
         <section>
