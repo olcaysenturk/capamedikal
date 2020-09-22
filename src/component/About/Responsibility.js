@@ -5,6 +5,7 @@ import BackgroundImage from "../../assets/images/about-4.jpg";
 
 export default class Responsibility extends Component {
   render() {
+    document.title = "Çapa Medikal - Sosyal Sorumluluklarımız";
     return (
       <div>
         <section>

@@ -51,6 +51,7 @@
       font-size: 18px;
       border-right: 1px solid $color-blue;
       position: relative;
+      color: $color-gray;
       @include media (mobil){
         display: block;
         border-right: 0;

@@ -8,6 +8,7 @@ import manegement3 from "../../assets/images/y3.jpg";
 import manegement4 from "../../assets/images/y4.jpg";
 
 export default class ManagementTeam extends Component {
+  document.title = "Çapa Medikal - Yönetim Kadrosu";
   render() {
     return (
       <div>

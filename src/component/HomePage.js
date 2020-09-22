@@ -5,9 +5,11 @@ import BrandsArea from "./HomePage/BrandsArea"
 import WeInPress from "./HomePage/WeInPress"
 export default class HomePage extends Component {
 
+
   
   
   render() {
+    document.title = "Çapa Medikal - Anasayfa";
     return (
       <div>
         <section className={"homeslider"}>

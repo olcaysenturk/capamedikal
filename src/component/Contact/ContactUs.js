@@ -5,11 +5,13 @@ import BackgroundImage from "../../assets/images/contact.png";
 import { Map, GoogleApiWrapper } from "google-maps-react";
 
 class ContactUs extends React.Component {
+  
   render() {
     const mapStyles = {
       width: "100%",
       height: "100%",
     };
+    document.title = "Çapa Medikal - İletişim";
     return (
       <div>
         <section>

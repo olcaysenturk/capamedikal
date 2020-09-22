@@ -8,7 +8,7 @@ export default class ProductDetail extends Component {
   render() {
     let StorageItem = JSON.parse(localStorage.getItem("brandItem"));
     let brandItemDetail = JSON.parse(localStorage.getItem("brandItemDetail"));
-    console.log({ brandItemDetail });
+    document.title = `Çapa Medikal - ${StorageItem.name} - ${brandItemDetail.name}`;
     return (
       <div>
         <section>

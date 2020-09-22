@@ -17,6 +17,7 @@ export default class BrandsItem extends Component {
 
   render() {
     let StorageItem = this.state.brands;
+    document.title = `Çapa Medikal - Markalar ${StorageItem.name}`;
     return (
       <div>
         <section>

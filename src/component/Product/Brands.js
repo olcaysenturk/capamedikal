@@ -35,6 +35,7 @@ export default class Brands extends Component {
   }
 
   render() {
+    document.title = "Çapa Medikal - Markalar";
     return (
       <div>
         <section>
@@ -45,7 +46,6 @@ export default class Brands extends Component {
         </section>
         <section className={"brands-box"}>
           <Container>
-            {this.props.counter}
             <p>
               Çapa Medikal, yılların getirdiği deneyimiyle Türk sağlık sistemi
               paydaşları için uygun ürünleri sunmaktadır. 3M, Aesculap,

@@ -6,6 +6,7 @@ import Tide1 from "../../assets/images/l1.png";
 
 export default class QualityTide extends Component {
   render() {
+    document.title = "Çapa Medikal - Kalite Belgelerimiz";
     return (
       <div>
         <section>

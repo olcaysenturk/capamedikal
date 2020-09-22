@@ -25,6 +25,7 @@ export default class Career extends Component {
   };
 
   render() {
+    document.title = "Çapa Medikal - Kariyer";
     return (
       <div>
         <section>

@@ -5,6 +5,7 @@ import BackgroundImage from "../../assets/images/about-2.jpg";
 
 export default class Vision extends Component {
   render() {
+    document.title = "Çapa Medikal - Vizyon ve Misyon";
     return (
       <div>
         <section>

@@ -4,6 +4,7 @@ import BackgroundTitle from "./BackgroundTitle";
 import BackgroundImage from "../../assets/images/about-3.jpg";
 
 export default class History extends Component {
+  document.title = "Çapa Medikal - Tarihçe";
   render() {
     return (
       <div>
