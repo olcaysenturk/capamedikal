@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
   findClick();
   mobilMenu();
   scrollAnimate();
-
+  mobilMenuItemOpen()
 });
 
 window.addEventListener("scroll", (e) => {
@@ -79,3 +79,11 @@ const mobilMenu = () => {
   }
 }
 
+const mobilMenuItemOpen = () => {
+  const menuEl = document.querySelectorAll(".Header .main-menu .item.sub");
+  menuEl.forEach(function (item) {
+    item.addEventListener("click",function(e){
+      e.target.nextSibling.toggle("open")
+    })
+  })
+}

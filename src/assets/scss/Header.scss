@@ -63,12 +63,23 @@
           display: none;
         }
       }
+      .menu-plus{
+        display: inline-block;
+        float: right;
+        font-size: 40px;
+        color: $color-blue;
+        font-weight: 300;
+        @include media(tablet){
+          display: none;
+        }
+      }
       &:nth-last-child(2),
       &:last-child {
         border: 0;
       }
       &.sub {
-        &:hover {
+        @include media(tablet){
+          &:hover {
           &:before {
             content: "";
             width: 13px;
@@ -88,6 +99,8 @@
             }
           }
         }
+        }
+        
       }
       &:hover {
         cursor: pointer;
@@ -150,6 +163,7 @@
           position: relative;
           text-align: left;
         }
+        
         &.open{
           display: inline-block;
         }

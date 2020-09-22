@@ -27,7 +27,7 @@ export default class Header extends Component {
                 <a href="/">Anasayfa</a>
               </li>
               <li className="item sub">
-                Kurumsal
+                Kurumsal <span className="menu-plus">+</span>
                 <div className={"sub-menu"}>
                   <div className={"sub-menu-item-box"}>
                     <div className={"sub-menu-item"}>
