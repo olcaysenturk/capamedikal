@@ -13,6 +13,7 @@ window.addEventListener("scroll", (e) => {
 const scrollToElement = () => {
   let element = document.querySelector(`.WeInPress`);
   let menuEl = document.querySelectorAll(`.toNews`);
+  let pageUrl = window.location.href;
   menuEl.forEach(function (item) {
     item.addEventListener("click", function () {
       element.scrollIntoView({
@@ -22,6 +23,13 @@ const scrollToElement = () => {
       });
     });
   });
+  if(pageUrl.includes("page=basinda-biz")){
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  }
 };
 
 const scrollAnimate = () => {

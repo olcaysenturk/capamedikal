@@ -21,10 +21,17 @@ export default class BrandsArea extends Component {
     galleryItems: [],
   };
 
+  setStorage(brand) {
+    localStorage.setItem("brandItem", JSON.stringify(brand));
+  }
+  
+
   renderImages() {
     return (
       this.props.brands.map((brand) => (
-        <div className="item" key={brand.id}>
+        <div className="item" key={brand.id} onClick={(e) => {
+          this.setStorage(brand);
+        }}>
           <a href={"/markalar/" + brand.url}>
             <div className={"img-box"}>
               <img src={brand.path} className="sliderimg" alt={brand.name} />

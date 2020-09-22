@@ -1,16 +1,16 @@
 .about-title-area{
-    height: 250px;
+    height: 170px;
     background-position: center;
     background-size: cover;
     position: relative;
     @include media(web){
-        height: 420px;
+        height: 170px;
     }
     .container{
         position: relative;
-        height: 250px;
+        height: 170px;
         @include media(web){
-            height: 420px;
+            height: 170px;
         }
         
     }
@@ -23,10 +23,12 @@
         color: $color-white;
         padding-left: 35px;
         left: 15px;
-        bottom: 40px;
+        bottom: 0px;
         @include media(tablet){
             font: 600 30px/30px $font;
             left: 0;
+            bottom: 40px;
+
         }
         @include media(web){
             font: 600 50px/50px $font;
