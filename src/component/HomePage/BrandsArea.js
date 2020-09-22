@@ -32,7 +32,7 @@ export default class BrandsArea extends Component {
         <div className="item" key={brand.id} onClick={(e) => {
           this.setStorage(brand);
         }}>
-          <a href={"/markalar/" + brand.url}>
+          <a href={"/markalar/urunler/" + brand.url}>
             <div className={"img-box"}>
               <img src={brand.path} className="sliderimg" alt={brand.name} />
             </div>

@@ -32,7 +32,6 @@ export default class App extends Component {
 
   componentDidMount() {
     this.getCategories();
-    console.log(json)
   }
 
   render() {
