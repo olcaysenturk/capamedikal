@@ -20,6 +20,16 @@
         width: 100px;
       }
     }
+    @include media(tablet) {
+      img {
+        width: 120px;
+      }
+    }
+    @include media(web) {
+      img {
+        width: 160px;
+      }
+    }
   }
   .main-menu-box{
     float: right;
@@ -27,6 +37,12 @@
     @include media(mobil) {
       display: none;
       padding: 13px;
+    }
+    @include media(tablet) {
+      margin-top: 22px;
+    }
+    @include media(web) {
+      margin-top: 30px;
     }
     &.open{
       display: flex;
@@ -62,6 +78,12 @@
         &:last-child {
           display: none;
         }
+      }
+      @include media(tablet) {
+        font-size: 15px;
+      }
+      @include media(web) {
+        font-size: 18px;
       }
       .menu-plus{
         display: inline-block;
@@ -122,6 +144,9 @@
         color: $color-gray;
         margin-left: 30px;
         font-weight: 300;
+        @include media(tablet){
+          margin-left: 15;
+        }
         &:before {
           content: "";
           width: 15px;

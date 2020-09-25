@@ -61,9 +61,9 @@
             transition: .5s ease;
             opacity: 0;
             &:hover{
-                -webkit-box-shadow: 4px 2px 44px -1px rgba(0,0,0,0.51);
-                -moz-box-shadow: 4px 2px 44px -1px rgba(0,0,0,0.51);
-                box-shadow: 4px 2px 44px -1px rgba(0,0,0,0.51);
+                -webkit-box-shadow: 4px 2px 44px -1px rgba(0,0,0,0.21);
+                -moz-box-shadow: 4px 2px 44px -1px rgba(0,0,0,0.21);
+                box-shadow: 4px 2px 44px -1px rgba(0,0,0,0.21);
                 cursor: pointer;
             }
             .icon{
