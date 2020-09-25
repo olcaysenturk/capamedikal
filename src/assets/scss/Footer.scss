@@ -4,7 +4,7 @@ footer {
   border-bottom: 10px solid $color-black-1;
   .item-box {
     display: flex;
-    @include media(only-tablet){
+    @include media(only-tablet-mobil){
         display: block;
         text-align: center;
     }

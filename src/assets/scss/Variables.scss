@@ -45,6 +45,11 @@ $font   : 'Metric';
             @content;
         }
     }
+    @else if $point == only-tablet-mobil {
+        @media (max-width: 992px) {
+            @content;
+        }
+    }
     @else if $point == print {
         @media print{
             @content;
