@@ -4,18 +4,18 @@ footer {
   border-bottom: 10px solid $color-black-1;
   .item-box {
     display: flex;
-    @include media(mobil){
+    @include media(tablet){
         display: block;
         text-align: center;
     }
     .logo,.adress{
-        @include media(mobil){
+        @include media(tablet){
             margin-bottom: 30px;
         }
     }
     .footer-menu {
       width: 125px;
-      @include media(mobil){
+      @include media(tablet){
         margin: 0 auto;
         margin-bottom: 30px;
       }
@@ -38,7 +38,7 @@ footer {
     }
   }
   .footerSocial{
-        @include media(mobil){
+        @include media(tablet){
             margin-bottom: 30px;
         }
       .numberMail{
