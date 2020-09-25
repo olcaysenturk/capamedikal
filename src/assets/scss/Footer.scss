@@ -9,13 +9,13 @@ footer {
         text-align: center;
     }
     .logo,.adress{
-        @include media(only-tablet){
+        @include media(only-tablet-mobil){
             margin-bottom: 30px;
         }
     }
     .footer-menu {
       width: 125px;
-      @include media(only-tablet){
+      @include media(only-tablet-mobil){
         margin: 0 auto;
         margin-bottom: 30px;
       }
@@ -38,7 +38,7 @@ footer {
     }
   }
   .footerSocial{
-        @include media(only-tablet){
+        @include media(only-tablet-mobil){
             margin-bottom: 30px;
         }
       .numberMail{
