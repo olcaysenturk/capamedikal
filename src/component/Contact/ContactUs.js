@@ -49,20 +49,21 @@ class ContactUs extends React.Component {
                   <div className={"item"}>
                     <span className={"ico place"}></span>
                     <span className={"text-item"}>
-                      Yassıören Mah. Ağaçkakan Sok. No:15/A <br></br>
-                      Arnavutköy / İstanbul / Türkiye
+                    Çamtepe Mah. Mithatpaşa Cad. Uludağ Sok. No:2/2 <br></br>
+                    Narlıdere / İzmir / Türkiye
+
                     </span>
                   </div>
                   <div className={"item"}>
                     <span className={"ico phone"}></span>
                     <span className={"text-item"}>
-                      444 8 777
+                    +90 232 239 3301
                     </span>
                   </div>
                   <div className={"item"}>
                     <span className={"ico fax"}></span>
                     <span className={"text-item"}>
-                    +90 212 671 9070
+                    +90 232 239 3302
                     </span>
                   </div>
                 </div>
@@ -75,8 +76,8 @@ class ContactUs extends React.Component {
                     zoom={16}
                     style={mapStyles}
                     initialCenter={{
-                      lat: 41.190088,
-                      lng: 28.607496,
+                      lat: 38.394087,
+                      lng: 27.008028,
                     }}
                   />
                 </div>

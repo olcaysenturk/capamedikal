@@ -22,30 +22,30 @@ export default class Footer extends Component {
                 <a href="/">Anasayfa</a>
               </li>
               <li className="item">
-                <a href="/">Kurumsal</a>
+                <a href="/hakkimizda">Kurumsal</a>
               </li>
               <li className="item">
-                <a href="/">Markalar</a>
+                <a href="/markalar">Markalar</a>
               </li>
               <li className="item">
-                <a href="/">Kariyer</a>
+                <a href="/kariyer">Kariyer</a>
               </li>
               <li className="item">
-                <a href="/">Basında Biz</a>
+                <a href="/?page=basinda-biz">Basında Biz</a>
               </li>
               <li className="item">
-                <a href="/">İletişim</a>
+                <a href="/iletisim">İletişim</a>
               </li>
             </ul>
           </Col>
           <Col className={"adress"} xs={"12"} sm={"12"} md={"6"} lg={"3"}>
-            İkitelli O.S.B Mahallesi <br></br>
-            Hürriyet Bulvarı No: 54/03<br></br>
-            Başakşehir / İstanbul<br></br>
+          Yassıören Mah. Ağaçkakan Sok. No:15/A<br></br>
+          Arnavutköy / İstanbul / Türkiye<br></br>
             <Media object src={FooterMap}  alt="map" />
           </Col>
           <Col className={"footerSocial"} xs={"12"} sm={"12"} md={"6"} lg={"3"}>
             <a className={"numberMail"} href={"tel:444 8 717"}>444 8 717</a>
+            <a className={"numberMail"} href={"tel:+90 212 671 9070"}>0212 671 9070</a>
             <a className={"numberMail"} href={"mailto:bilgi@capamedikal.com.tr"}>bilgi@capamedikal.com.tr</a>
             <ul>
                 <li>
