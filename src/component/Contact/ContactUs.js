@@ -49,9 +49,8 @@ class ContactUs extends React.Component {
                   <div className={"item"}>
                     <span className={"ico place"}></span>
                     <span className={"text-item"}>
-                    Çamtepe Mah. Mithatpaşa Cad. Uludağ Sok. No:2/2 <br></br>
-                    Narlıdere / İzmir / Türkiye
-
+                    Yassıören Mah. Ağaçkakan Sok. No:15/A <br></br>
+                      Arnavutköy / İstanbul / Türkiye
                     </span>
                   </div>
                   <div className={"item"}>
@@ -82,12 +81,12 @@ class ContactUs extends React.Component {
                   />
                 </div>
                 <div className={"adress"}>
-                  <div className={"title"}>İSTANBUL MERKEZ</div>
+                  <div className={"title"}>İZMİR ŞUBE</div>
                   <div className={"item"}>
                     <span className={"ico place"}></span>
                     <span className={"text-item"}>
-                      Yassıören Mah. Ağaçkakan Sok. No:15/A <br></br>
-                      Arnavutköy / İstanbul / Türkiye
+                    Çamtepe Mah. Mithatpaşa Cad. Uludağ Sok. No:2/2 <br></br>
+                    Narlıdere / İzmir / Türkiye
                     </span>
                   </div>
                   <div className={"item"}>
