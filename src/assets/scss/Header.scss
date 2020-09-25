@@ -188,7 +188,12 @@
           position: relative;
           text-align: left;
         }
-        
+        @include media(tablet) {
+          top: 51px;
+        }
+        @include media(web) {
+          top: 66px;
+        }
         &.open{
           display: inline-block;
         }
