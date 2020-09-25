@@ -11,12 +11,12 @@ export default class Footer extends Component {
             <div className={"item-box"}>
 
            
-          <Col xs={"12"} sm={"12"} md={"6"} lg={"3"}>
+          <Col xs={"12"} sm={"12"} md={"12"} lg={"3"}>
             <div className={"logo"}>
               <Media object src={LogoImg} width={160} alt="Logo" />
             </div>
           </Col>
-          <Col xs={"12"} sm={"12"} md={"6"} lg={"3"}>
+          <Col xs={"12"} sm={"12"} md={"12"} lg={"3"}>
             <ul className={"footer-menu"}>
               <li className="item">
                 <a href="/">Anasayfa</a>
@@ -38,12 +38,12 @@ export default class Footer extends Component {
               </li>
             </ul>
           </Col>
-          <Col className={"adress"} xs={"12"} sm={"12"} md={"6"} lg={"3"}>
+          <Col className={"adress"} xs={"12"} sm={"12"} md={"12"} lg={"3"}>
           Yassıören Mah. Ağaçkakan Sok. No:15/A<br></br>
           Arnavutköy / İstanbul / Türkiye<br></br>
             <Media object src={FooterMap}  alt="map" />
           </Col>
-          <Col className={"footerSocial"} xs={"12"} sm={"12"} md={"6"} lg={"3"}>
+          <Col className={"footerSocial"} xs={"12"} sm={"12"} md={"12"} lg={"3"}>
             <a className={"numberMail"} href={"tel:444 8 717"}>444 8 717</a>
             <a className={"numberMail"} href={"tel:+90 212 671 9070"}>0212 671 9070</a>
             <a className={"numberMail"} href={"mailto:bilgi@capamedikal.com.tr"}>bilgi@capamedikal.com.tr</a>
