@@ -57,6 +57,9 @@ export default class Header extends Component {
                 <a href="/markalar">Markalar</a>
               </li>
               <li className="item">
+                <a href="/urunler">Ürünler</a>
+              </li>
+              <li className="item">
                 <a href="/kariyer">Kariyer</a>
               </li>
               <li className="item toNews">

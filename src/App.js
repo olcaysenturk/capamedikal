@@ -14,6 +14,7 @@ import BrandsItem from "./component/Product/BrandsItem";
 import ProductDetail from "./component/Product/ProductDetail";
 import Career from "./component/Career/Career";
 import ContactUs from "./component/Contact/ContactUs";
+import Products from "./component/Product/Products";
 import json from "./assets/js/brands.json";
 
 export default class App extends Component {
@@ -21,14 +22,12 @@ export default class App extends Component {
     brands: json.brands,
     brandsName: [],
   };
-  
 
   getCategories = () => {
     fetch(json)
       .then((response) => response.json())
       .then((data) => this.setState({ brands: data }));
   };
-
 
   componentDidMount() {
     this.getCategories();
@@ -53,8 +52,10 @@ export default class App extends Component {
               <BrandsItem />
             </Route>
             <Route path="/markalar">
-              <Brands brands={this.state.brands}
-              />
+              <Brands brands={this.state.brands} />
+            </Route>
+            <Route path="/urunler">
+              <Products products={this.state.brands} />
             </Route>
             <Route path="/kalite-belgelerimiz">
               <QualityTide />

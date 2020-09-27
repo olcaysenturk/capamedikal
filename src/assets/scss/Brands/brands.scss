@@ -58,8 +58,18 @@
   }
 
   .brands-item-box-detail{
+    margin-bottom: 30px;
     .row {
       display: flex !important;
+    }
+    .list-title{
+      font: 600 26px/26px $font;
+      color: $color-blue-dark;
+      margin-bottom: 15px;
+      text-transform: lowercase;
+      &::first-letter{
+        text-transform: capitalize;
+      }
     }
     h2{
       display: block;
@@ -160,5 +170,52 @@
 .styles_kPagination__1qVvD .styles_kPaginationListItemVertical__q-2s5{
   flex-direction: row !important;
   flex-wrap: wrap;
+}
+
+.productFilterArea{
+  background-color: $color-blue;
+  padding: 20px;
+  margin: 0 7px;
+  margin-bottom: 30px;
+  .item-box{
+    font: 400 16px/16px $font;
+    color: $color-white;
+    cursor: pointer;
+    span{
+      background-color: $color-blue-dark;
+      padding: 10px;
+      font: 400 16px/24px $font;
+      color: $color-white;
+      height: 40px;
+      width: 100%;
+      margin-bottom: 10px;
+      display: inline-block;
+      text-transform: capitalize;
+      @include media(tablet){
+        width: auto;
+        margin-bottom: 0;
+      }
+    }
+    .findSelect{
+      width: 100%;
+      height: 40px;
+      font: 400 16px/16px $font;
+      border: 0;
+      -moz-appearance:none; 
+      -webkit-appearance:none; 
+      appearance:none;
+      padding: 0 10px;
+      text-transform: lowercase;
+      &::first-letter{
+        text-transform: capitalize !important;
+      }
+      @include media(tablet){
+        width: 300px;
+        margin: 0 10px;
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
 }
 

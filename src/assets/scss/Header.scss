@@ -81,9 +81,12 @@
       }
       @include media(tablet) {
         font-size: 15px;
+        padding: 0 5px;
+        
       }
       @include media(web) {
         font-size: 18px;
+        padding: 0 10px;
       }
       .menu-plus{
         display: inline-block;
