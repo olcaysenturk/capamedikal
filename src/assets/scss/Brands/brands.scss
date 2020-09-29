@@ -66,9 +66,8 @@
       font: 600 26px/26px $font;
       color: $color-blue-dark;
       margin-bottom: 15px;
-      text-transform: lowercase;
-      &::first-letter{
-        text-transform: capitalize;
+      @include media(mobil){
+        font: 500 18px/18px $font;
       }
     }
     h2{
@@ -172,42 +171,54 @@
   flex-wrap: wrap;
 }
 
+.styles_kPagination__1qVvD .styles_kPaginationListPage__2_6Ph li{
+  font: 400 16px/16px $font;
+}
+
 .productFilterArea{
-  background-color: $color-blue;
-  padding: 20px;
-  margin: 0 7px;
-  margin-bottom: 30px;
+  
   .item-box{
     font: 400 16px/16px $font;
     color: $color-white;
     cursor: pointer;
+    border: 1px solid #ededed;;
+    padding: 20px;
+    margin-bottom: 20px;
     span{
-      background-color: $color-blue-dark;
-      padding: 10px;
-      font: 400 16px/24px $font;
-      color: $color-white;
-      height: 40px;
-      width: 100%;
-      margin-bottom: 10px;
-      display: inline-block;
-      text-transform: capitalize;
+      font: 500 20px/20px $font;
+      display: block;
+      color: $color-blue-dark;
+      margin-bottom: 20px;
+    }
+    ul{
+      display: none;
       @include media(tablet){
-        width: auto;
-        margin-bottom: 0;
+        display: block;
+      }
+      li{
+        color: $color-black;
+        padding: 10px 0 ;
+        border-bottom: 1px solid #ededed;
+        &:last-child{
+          border-bottom: 0;
+        }
       }
     }
     .findSelect{
       width: 100%;
       height: 40px;
       font: 400 16px/16px $font;
-      border: 0;
+      border: 1px solid #ededed;
       -moz-appearance:none; 
       -webkit-appearance:none; 
       appearance:none;
       padding: 0 10px;
-      text-transform: lowercase;
-      &::first-letter{
-        text-transform: capitalize !important;
+      display: none;
+      background-image: url("../../images/select-arrow.png");
+      background-repeat: no-repeat;
+      background-position: center right;
+      @include media(mobil){
+        display: block;
       }
       @include media(tablet){
         width: 300px;
@@ -218,4 +229,6 @@
     }
   }
 }
-
+.flex-row{
+  display: flex !important;
+}

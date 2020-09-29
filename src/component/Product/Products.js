@@ -12,7 +12,7 @@ export default class Products extends Component {
     uniqueNames: [],
     uniqueItems: [],
     uniqueFilter: [],
-    dataName : ""
+    dataName: "",
   };
 
   setStorage(brand) {
@@ -21,16 +21,23 @@ export default class Products extends Component {
     window.location.href = "/urun-detay/" + brandInfo.url;
   }
 
-  productSetData() {
+  productSetData(dataEl) {
     let uniqueNames = [];
     let uniqueItems = [];
     let uniqueFilter = [];
-    let dataName = document.getElementById("findSelect")
+    let dataName = "";
+    if(window.innerWidth < 768){
+      dataName = document.getElementById("findSelect")
       ? document.getElementById("findSelect").value
-      : "Tüm ürünler";
-      this.setState({
-        dataName : dataName
-      });
+      : "TÜM ÜRÜNLER";
+    }else{
+      dataName = dataEl ? dataEl : "TÜM ÜRÜNLER";
+    }
+
+    console.log({dataName});
+    this.setState({
+      dataName: dataName,
+    });
 
     this.state.productItem.map(function (item) {
       var items = item.items;
@@ -40,7 +47,7 @@ export default class Products extends Component {
       }
     });
 
-    if (dataName !== "Tüm ürünler") {
+    if (dataName !== "TÜM ÜRÜNLER") {
       uniqueItems.filter(function (item) {
         if (item.type === dataName) {
           uniqueFilter.push(item);
@@ -49,11 +56,12 @@ export default class Products extends Component {
     }
 
     let uniqueArr = [...new Set(uniqueNames)];
-    let paginationItem = dataName !== "Tüm ürünler" ? uniqueFilter : uniqueItems;
+    let paginationItem =
+      dataName !== "TÜM ÜRÜNLER" ? uniqueFilter : uniqueItems;
     this.setState({
       paginationItem: paginationItem,
       uniqueArr: uniqueArr,
-      uniqueNames: uniqueNames
+      uniqueNames: uniqueNames,
     });
   }
 
@@ -71,63 +79,70 @@ export default class Products extends Component {
         </section>
         <section className="brands-box">
           <Container>
-            <section className={"productFilterArea"}>
-              <div className="item-box" Col={12}>
-                <span>
-                  Filtreleme için 
-                </span>
-                <select
+            <Row className={"flex-row"}>
+              <Col lg={"3"} className={"productFilterArea"}>
+                <div className="item-box">
+                  <span>ÜRÜN KATEGORİSİ</span>
+                  <ul>
+                    {this.state.uniqueArr.map((item, index) => (
+                     
+                        <li key={index} onClick={(e) => {
+                          this.productSetData(item);
+                        }}>{item}</li>
+                    ))}
+                    </ul>
+                    <select
                   id={"findSelect"}
                   className={"findSelect"}
                   onChange={(e) => {
                     this.productSetData();
                   }}
                 >
-                  <option value={"Tüm ürünler"}>Kategori seçiniz</option>
+                  <option value={"TÜM ÜRÜNLER"}>TÜM ÜRÜNLER</option>
                   {this.state.uniqueArr.map((item, index) => (
                     <option key={index} value={item}>
                       {item}
                     </option>
                   ))}
                 </select>
-                
-              </div>
-            </section>
-            <section className={"brands-item-box-detail"}>
-              <Col className={"list-title"}>
-                  {this.state.dataName} listeleniyor
+                </div>
               </Col>
-              <Row>
-                <PaginationList
-                  data={this.state.paginationItem}
-                  pageSize={8}
-                  renderItem={(item, key) => (
-                    <Col
-                      lg={"3"}
-                      md={"3"}
-                      sm={"6"}
-                      xs={"6"}
-                      key={key}
-                      onClick={(e) => {
-                        this.setStorage(item);
-                      }}
-                    >
-                      <div className={"brands-item"}>
-                        <div className={"brands-img"}>
-                          <img src={item.img} alt={""} />
-                          <span>{item.code}</span>
-                        </div>
+              <Col lg={"9"} className={"brands-item-box-detail"}>
+                <Col className={"list-title"}>
+                  {this.state.dataName}
+                </Col>
+                <Row>
+                  <PaginationList
+                    data={this.state.paginationItem}
+                    pageSize={8}
+                    renderItem={(item, key) => (
+                      <Col
+                        lg={"4"}
+                        md={"4"}
+                        sm={"6"}
+                        xs={"6"}
+                        key={key}
+                        onClick={(e) => {
+                          this.setStorage(item);
+                        }}
+                      >
+                        <div className={"brands-item"}>
+                          <div className={"brands-img"}>
+                            <img src={item.img} alt={""} />
+                            <span>{item.code}</span>
+                          </div>
 
-                        <div className={"brands-text"}>
-                          {item.name} <br></br>
-                          {item.area}
+                          <div className={"brands-text"}>
+                            {item.name} <br></br>
+                            {item.area}
+                          </div>
                         </div>
-                      </div>
-                    </Col>
-                  )}
-                ></PaginationList>
-              </Row>
-            </section>
+                      </Col>
+                    )}
+                  ></PaginationList>
+                </Row>
+              </Col>
+            </Row>
           </Container>
         </section>
       </div>
