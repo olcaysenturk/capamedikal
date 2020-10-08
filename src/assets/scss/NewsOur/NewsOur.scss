@@ -1,0 +1,113 @@
+.newsVideo-section {
+    margin-top: 65px;
+    margin-bottom: 25px;
+    .newsVideo-box {
+      display: block;
+      margin-bottom: 40px;
+      @include media(tablet) {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .item {
+        width: 100%;
+        margin-bottom: 15px;
+        cursor: pointer;
+        @include media(tablet) {
+          margin-bottom: 0px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      .newsVideo-item {
+        h2 {
+          text-align: left;
+          font-family: $font;
+          color: $color-blue;
+          font-size: 22px;
+          font-weight: 500;
+          margin-top: 10px;
+          min-height: 40px;
+          overflow: hidden;
+          margin-bottom: 30px;
+        }
+        @include media(tablet) {
+          font-size: 30px;
+          font-weight: 600;
+        }
+        &:nth-child(2) {
+          text-align: center;
+        }
+        &:nth-child(3) {
+          text-align: right;
+        }
+      }
+    }
+    
+  }
+  .react-tabs{
+    margin-top: 30px;
+    &__tab-list{
+        border-bottom: 0px;
+    }
+    &__tab{
+        font-family: $font;
+          color: $color-blue;
+          font-size: 22px;
+          font-weight: 500;
+          bottom: -2px;
+          border: 0;
+    }
+    &__tab--selected{
+        text-align: center;
+        span{
+            position: relative;
+            padding-bottom: 10px;
+            &::before{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                width: 50px;
+                height: 3px;
+                background-color: $color-blue-dark;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+}
+.news-detail-box{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  @include media(tablet){
+    width: 70%; 
+  }
+  h2{
+    font: 500 22px/25px $font;
+    color: $color-blue-dark;
+    margin-top: 30px;
+    width: 100%;
+    @include media(tablet){
+      font: 500 35px/35px $font;
+    }
+  }
+  .news-img{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    img{
+      width: 100%;
+    }
+  }
+  .news-text{
+    font: 400 18px/20px $font;
+    color: $color-black;
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+  }
+}

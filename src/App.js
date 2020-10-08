@@ -15,18 +15,21 @@ import ProductDetail from "./component/Product/ProductDetail";
 import Career from "./component/Career/Career";
 import ContactUs from "./component/Contact/ContactUs";
 import Products from "./component/Product/Products";
+import NewsOur from "./component/NewsOur/NewsOur";
+import NewsDetail from "./component/NewsOur/NewsDetail";
 import json from "./assets/js/brands.json";
 
 export default class App extends Component {
   state = {
     brands: json.brands,
+    news: json.news,
     brandsName: [],
   };
 
   getCategories = () => {
     fetch(json)
       .then((response) => response.json())
-      .then((data) => this.setState({ brands: data }));
+      .then((data) => this.setState({ brands: data, news: data }));
   };
 
   componentDidMount() {
@@ -39,6 +42,13 @@ export default class App extends Component {
         <Header />
         <Router>
           <Switch>
+          
+            <Route path="/haberler-videolar" >
+              <NewsOur news={this.state.news} />
+            </Route>
+            <Route path="/haberler/">
+              <NewsDetail />
+            </Route>
             <Route path="/iletisim">
               <ContactUs />
             </Route>
@@ -76,7 +86,7 @@ export default class App extends Component {
               <AboutUs />
             </Route>
             <Route path="/">
-              <HomePage brands={this.state.brands} />
+              <HomePage brands={this.state.brands} news={this.state.news} />
             </Route>
           </Switch>
         </Router>

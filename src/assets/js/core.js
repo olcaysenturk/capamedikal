@@ -80,10 +80,13 @@ const mobilMenu = () => {
 }
 
 const mobilMenuItemOpen = () => {
-  const menuEl = document.querySelectorAll(".Header .main-menu .item.sub");
-  menuEl.forEach(function (item) {
-    item.addEventListener("click",function(e){
-      e.target.nextSibling.toggle("open")
+  if(window.innerWidth < 768){
+    const menuEl = document.querySelectorAll(".Header .main-menu .item.sub");
+    menuEl.forEach(function (item) {
+      item.addEventListener("click",function(e){
+        item.querySelector(".sub-menu").classList.toggle("open");
+        item.querySelector(".menu-plus").classList.toggle("open");
+      })
     })
-  })
+  }
 }
