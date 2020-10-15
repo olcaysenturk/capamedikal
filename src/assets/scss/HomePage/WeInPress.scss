@@ -72,11 +72,12 @@
         }
         .text{
             font: 400 18px/18px $font;
-            color: $color-blue-dark;
+            color: $color-black;
             height: 182px;
             overflow: hidden;
             b{
               font-weight: bold;
+              color: $color-blue;
             }
         }
         

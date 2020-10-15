@@ -128,7 +128,8 @@
             margin: 0 auto;
             display: inline-block;
             position: absolute;
-            bottom: -15px;
+            bottom: -10px;
+            background-size: 9px;
           }
           .sub-menu {
             display: inline-block;
@@ -140,10 +141,33 @@
         }
         
       }
+      &.no-bg{
+        .sub-menu-item-box{
+          background: transparent;
+          padding: 0;;
+        }
+        .sub-menu{
+          top: -15px;
+          position: absolute;
+          width: 465px;
+          left: -99px;
+          .sub-menu-item {
+            a{
+              color: $color-gray;
+              border-right: 1px solid $color-gray;
+            }
+            &:last-child{
+              a{
+                border-right: 0px ;
+              }
+            }
+          }
+        }
+      }
       &:hover {
         cursor: pointer;
       }
-
+      
       a {
         display: block;
         color: $color-gray;
@@ -213,6 +237,7 @@
         &.open{
           display: inline-block;
         }
+        
         &-item-box {
           background: $color-black-1;
           position: relative;
@@ -250,6 +275,7 @@
             }
           }
         }
+        
         input{
           background: transparent;
           border: 0;

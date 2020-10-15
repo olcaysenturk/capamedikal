@@ -31,9 +31,6 @@ export default class Footer extends Component {
                 <a href="/kariyer">Kariyer</a>
               </li>
               <li className="item">
-                <a href="/?page=basinda-biz">Basında Biz</a>
-              </li>
-              <li className="item">
                 <a href="/iletisim">İletişim</a>
               </li>
             </ul>

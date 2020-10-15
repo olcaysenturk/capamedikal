@@ -26,28 +26,23 @@ export default class Header extends Component {
               <li className="item">
                 <a href="/">Anasayfa</a>
               </li>
-              <li className="item sub">
+              <li className="item sub no-bg">
                 Kurumsal <span className="menu-plus"></span>
                 <div className={"sub-menu"}>
                   <div className={"sub-menu-item-box"}>
                     <div className={"sub-menu-item"}>
                       <a href="/hakkimizda">Hakkımızda</a>
                     </div>
-                    <div className={"sub-menu-item"}>
-                      <a href="/vizyon-ve-misyon">Vizyon ve Misyon</a>
-                    </div>
-                    <div className={"sub-menu-item"}>
-                      <a href="/tarihce">Tarihçe</a>
-                    </div>
+                   
                     <div className={"sub-menu-item"}>
                       <a href="/yonetim-kadrosu">Yönetim Kadrosu</a>
                     </div>
                     <div className={"sub-menu-item"}>
-                      <a href="/kalite-belgelerimiz">Kalite Belgelerimiz</a>
+                      <a href="/belgelerimiz">Belgelerimiz</a>
                     </div>
                     <div className={"sub-menu-item"}>
-                      <a href="/sosyal-sorumluluklarimiz">
-                        Sosyal Sorumluluklarimiz
+                      <a href="/haberler-videolar">
+                        Haberler ve Videolar
                       </a>
                     </div>
                   </div>
@@ -61,9 +56,6 @@ export default class Header extends Component {
               </li>
               <li className="item">
                 <a href="/kariyer">Kariyer</a>
-              </li>
-              <li className="item toNews">
-                <a href={"/haberler-videolar"}>Basında Biz</a>
               </li>
               <li className="item">
                 <a href="/iletisim">İletişim</a>

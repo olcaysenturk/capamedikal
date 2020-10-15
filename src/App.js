@@ -67,7 +67,7 @@ export default class App extends Component {
             <Route path="/urunler">
               <Products products={this.state.brands} />
             </Route>
-            <Route path="/kalite-belgelerimiz">
+            <Route path="/belgelerimiz">
               <QualityTide />
             </Route>
             <Route path="/yonetim-kadrosu">

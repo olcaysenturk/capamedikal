@@ -15,7 +15,7 @@ export default class NewsOur extends Component {
 
   renderNews() {
     return this.props.news.map((item) => (
-      <Col className={"newsVideo-item"} lg={"6"} md={"6"} sm={"12"} xs={"12"} onClick={(e) => {
+      <Col className={"newsVideo-item"} lg={"4"} md={"4"} sm={"12"} xs={"12"} onClick={(e) => {
         this.setStorage(item);
       }}>
         <div className={"item"}>

@@ -4,20 +4,20 @@
     margin-bottom: 30px;
     .item {
       .img-box {
-        width: 80px;
-        height: 80px;
+        width: 160px;
+        height: 160px;
         display: inline-block;
         vertical-align: top;
         img {
-          width: 80px;
-          height: 80px;
+          width: 160px;
+          height: 160px;
           border-radius: 100%;
           overflow: hidden;
         }
       }
       .text-box {
         display: inline-block;
-        width: calc(100% - 150px);
+        width: calc(100% - 240px);
         margin-left: 35px;
         font-family: $font;
         .title {
@@ -72,7 +72,7 @@
     }
   }
   .form-area {
-    background: $color-blue-dark;
+    background: $color-blue;
     .form-box {
       display: block;
       margin: 0 auto;
@@ -122,12 +122,13 @@
           }
           .button {
             margin-bottom: 30px;
+            border: 1px solid $color-white;
           }
         }
       }
     }
     .button-area {
-      background: #000c48;
+      background: rgba(0,12,72,.3);
       padding-bottom: 25px;
       @include media(mobil){
         text-align: center;

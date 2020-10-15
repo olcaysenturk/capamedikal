@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
   mobilMenu();
   scrollAnimate();
   mobilMenuItemOpen()
+  managementList()
 });
 
 window.addEventListener("scroll", (e) => {
@@ -89,4 +90,9 @@ const mobilMenuItemOpen = () => {
       })
     })
   }
+}
+
+const managementList = () => {
+   
+  
 }

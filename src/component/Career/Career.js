@@ -112,7 +112,7 @@ export default class Career extends Component {
                     </div>
                     <div className={"form-item-box"}>
                         <div className={"form-item"}>
-                            <textarea></textarea>
+                            <textarea placeholder={"Açıklama"}></textarea>
                         </div>
                         <div className={"form-item"}>
                             <input type={"text"} placeholder={"Özgeçmişiniz"} />
