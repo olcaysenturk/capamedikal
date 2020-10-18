@@ -7,12 +7,67 @@ import PaginationList from "react-pagination-list";
 export default class BrandsItem extends Component {
   state = {
     brands: JSON.parse(localStorage.getItem("brandItem")),
+    productItem: JSON.parse(localStorage.getItem("brandItem")).items,
+    paginationItem: [],
+    uniqueArr: [],
+    uniquebrand: [],
+    uniqueNames: [],
+    uniqueItems: [],
+    uniqueFilter: [],
+    itemBrands: [],
+    uniquebrands: [],
+    dataName: "",
   };
 
   setStorage(brand) {
     let brandInfo = JSON.parse(localStorage.getItem("brandItem"));
     localStorage.setItem("brandItemDetail", JSON.stringify(brand));
     window.location.href = "/urun-detay/" + brandInfo.url;
+  }
+
+  productSetData(opData) {
+    let uniqueNames = [];
+    let uniquebrands = [];
+    let uniqueItems = [];
+    let uniqueFilter = [];
+    let dataName = "";
+    
+    dataName = document.getElementById("findSelect") ? document.getElementById("findSelect").value : "TÜM ÜRÜNLER";
+  
+
+    this.setState({
+      dataName: dataName,
+    });
+
+    this.state.productItem.map(function (item) {
+       uniqueNames.push(item.type);
+       uniquebrands.push(item.brand);
+       uniqueItems.push(item);
+    });
+    
+    if (dataName !== "TÜM ÜRÜNLER") {
+      uniqueItems.filter(function (item) {
+        if(item.type === dataName){
+          uniqueFilter.push(item);
+      }
+      });
+    }
+
+    let uniqueArr = [...new Set(uniqueNames)];
+    let uniquebrand = [...new Set(uniquebrands)];
+    let paginationItem = dataName !== "TÜM ÜRÜNLER" ? uniqueFilter : uniqueItems;
+    
+    this.setState({
+      paginationItem: paginationItem,
+      uniqueArr: uniqueArr,
+      uniquebrand: uniquebrand,
+      uniqueNames: uniqueNames,
+    });
+    
+  }
+
+  componentWillMount() {
+    this.productSetData();
   }
 
   render() {
@@ -28,6 +83,7 @@ export default class BrandsItem extends Component {
         </section>
         <section className={"brands-box"}>
           <Container>
+          <Row className={"flex-row"}>
             <div className={"brands-info"}>
               <div className={"img-info"}>
                 <img src={StorageItem.path} alt={""} />
@@ -35,17 +91,39 @@ export default class BrandsItem extends Component {
               </div>
               <div className={"text-info"}>{StorageItem.info}</div>
             </div>
-            <div className={"brands-item-box-detail"}>
-              <h2>ÜRÜNLER</h2>
+            <Col lg={"3"} className={"productFilterArea"}>
+                <div className="item-box">
+                  <span>Ürün Kategorisi</span>
+                  <select
+                    id={"findSelect"}
+                    className={"findSelect"}
+                    onChange={(e) => {
+                      this.productSetData("type");
+                    }}
+                  >
+                    <option value={"TÜM ÜRÜNLER"}>TÜM ÜRÜNLER</option>
+                    {this.state.uniqueArr.map((item, index) => (
+                      <option key={index} value={item}>
+                        {item}
+                      </option>
+                    ))}
+                  </select>
+                  <p>
+                    Yukarıda ürün filtreleme bölümünden ürün grubu filtreleyerek detaylarına ulaşabilirsiniz.
+                  </p>
+                </div>
+              </Col>
+              <Col lg={"9"} className={"brands-item-box-detail"}>
+              <Col className={"list-title"}>{this.state.dataName}</Col>
               <Row>
                 <PaginationList
-                  data={StorageItem.items}
+                  data={this.state.paginationItem}
                   pageSize={8}
                   renderItem={(item, key) => (
                     <Col
                       className={"animate__animated"}
-                      lg={"3"}
-                      md={"3"}
+                      lg={"4"}
+                      md={"4"}
                       sm={"6"}
                       xs={"6"}
                       key={key}
@@ -68,7 +146,8 @@ export default class BrandsItem extends Component {
                   )}
                 ></PaginationList>
               </Row>
-            </div>
+              </Col>
+              </Row>
           </Container>
         </section>
       </div>

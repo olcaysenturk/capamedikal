@@ -40,9 +40,9 @@ const scrollAnimate = () => {
     let windowHeight = window.innerHeight;
     if (
       topPositionItem < windowHeight &&
-      !item.classList.contains("animate__fadeInUp")
+      !item.classList.contains("animate__fadeIn")
     ) {
-      item.classList.add("animate__fadeInUp");
+      item.classList.add("animate__fadeIn");
     }
   });
 };

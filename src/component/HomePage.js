@@ -21,9 +21,7 @@ export default class HomePage extends Component {
         <section className={"brands animate__animated"}>
             <BrandsArea brands={this.props.brands}></BrandsArea>
         </section>
-        <section className={"WeInPress animate__animated"}>
-            <WeInPress news={this.props.news}></WeInPress>
-        </section>
+        
       </div>
     );
   }
