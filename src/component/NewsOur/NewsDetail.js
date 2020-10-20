@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Col, Row } from "reactstrap";
+import { Container} from "reactstrap";
 import BackgroundTitle from "../About/BackgroundTitle";
 import BackgroundImage from "../../assets/images/brands-1.png";
 

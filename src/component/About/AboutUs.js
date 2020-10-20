@@ -16,67 +16,61 @@ export default class AboutUs extends Component {
         </section>
         <section className={"about-us-text"}>
           <Container>
-            <p>
-              Her şeyin her işin başı sağlık. 1987 yılında medikal sektöre adım
-              atan ve 1992 yılından bu yana Çapa Medikal olarak istikrarlı
-              büyümesini sürdüren şirketimiz, sektörde yaşanan teknolojik
-              dönüşümde geniş medikal sarf malzemesi portföyüyle sağlıkta hizmet
-              sunucu firmaların en büyük destek unsurlarından biri olmayı
-              sürdürüyor.
+            <h2>HAKKIMIZDA</h2>
+           
+
+
+          <p>
+            Her şeyin her işin başı sağlık. 1987 yılında medikal sektöre adım atan ve 1992 yılından bu yana Çapa Medikal olarak istikrarlı büyümesini sürdüren şirketimiz, sektörde yaşanan teknolojik dönüşümde geniş medikal sarf malzemesi portföyüyle sağlıkta hizmet sunucu firmaların en büyük destek unsurlarından biri olmayı sürdürüyor.
+
             </p>
             <p>
-              Hastanelerin ve diğer sağlık işletmelerinin temel gereksinimi olan
-              pek çok ürünü ilk kez Türkiye ile buluşturan Çapa Medikal, bugün
-              özel odaklanma ve deneyim isteyen sağlık sektörüne yönelik
-              lojistik hizmetlerde yalnızca ülkemizde değil, bölge ülkeleri
-              arasında da ön sıralarda yer alıyor.
+            Hastanelerin ve diğer sağlık işletmelerinin temel gereksinimi olan pek çok ürünü ilk kez Türkiye ile buluşturan Çapa Medikal, bugün özel odaklanma ve deneyim isteyen sağlık sektörüne yönelik lojistik hizmetlerde yalnızca ülkemizde değil, bölge ülkeleri arasında da ön sıralarda yer alıyor.
+
             </p>
             <p>
-              “Önce İnsan” ve “İstikrarlı Fiyat” ilkelerinden ödün vermeyen Çapa
-              Medikal, başta özel hastaneler olmak üzere kamu ve üniversite
-              hastanelerinin, , eczanelerin ve ilgili dağıtım firmalarının
-              medikal sarf malzemesi ihtiyacını büyük bir titizlik ve hız ile
-              karşılayarak “Sağlık Lojistiği” alanında uzman bir paydaş olarak
-              konumlanıyor.
+            “Önce İnsan” ve “İstikrarlı Fiyat” ilkelerinden ödün vermeyen Çapa Medikal, başta özel hastaneler olmak üzere kamu ve üniversite hastanelerinin, , eczanelerin ve ilgili dağıtım firmalarının medikal sarf malzemesi ihtiyacını büyük bir titizlik ve hız ile karşılayarak “Sağlık Lojistiği” alanında uzman bir paydaş olarak konumlanıyor.
+
             </p>
             <p>
-              2003 yılında aldığı ISO 9001:2000 kalite belgesi ile uluslararası
-              standartlarda hizmet verdiğini kanıtlayan Çapa Medikal, bu
-              kapsamda Ar-Ge birimi, yüksek teknolojiyle işleyen depoları ve
-              ürün bazındaki deneyimiyle sektörün en başarılı tedarikçileri
-              arasında yerini almış durumda.
+            2003 yılında aldığı ISO 9001:2000 kalite belgesi ile uluslararası standartlarda hizmet verdiğini kanıtlayan Çapa Medikal, bu kapsamda Ar-Ge birimi, yüksek teknolojiyle işleyen depoları ve ürün bazındaki deneyimiyle sektörün en başarılı tedarikçileri arasında yerini almış durumda.
+  
+            </p>
+            <h2>VİZYON MİSYON</h2>
+            <p>
+              <strong>Vizyon</strong>
             </p>
             <p>
-              <strong>Kalite ve Hız Bileşimi</strong>
+            Türkiye’de ve yakın coğrafyada sağlık sektörü için arz ve lojistikte lider bir şirket olmak.
             </p>
             <p>
-              Gerek temsilciliğini ve bayiliğini yaptığı ürünlerin kalitesi
-              gerekse Türkiye’nin dört bir yanında gelen talepleri karşılamadaki
-              hızıyla başarısını kanıtlayan Çapa Medikal, Temmuz 2017 itibariyle
-              İstanbul’un her iki yakasındaki toplam 10 bin metrekare alana
-              sahip depoları; İstanbul, İzmir ve Ankara’daki 100’ün üzerinde
-              çalışanın görev yaptığı hizmet ve kalite odaklı ofisleriyle sağlık
-              sektörüne katma değer yaratmaktadır.
+              <strong>Misyon</strong>
             </p>
             <p>
-              30’dan fazla markaya ait 3000’den fazla ürünü ileri teknolojik
-              altyapısı ile yöneten Çapa Medikal, 15 özel donanımlı nakliye
-              aracı ile İstanbul’un 150 farklı noktasına 24 saat, diğer
-              şehirlere ise 48 saat içinde ürün sevkiyatı gerçekleştiriyor.
+            Sağlık sektörünün önde gelen tedarik zinciri yönetimi şirketi olarak, yüksek kalite standartlarından ödün vermeden paydaşlar arasında üst düzey memnuniyet sağlamak.
             </p>
             <p>
-              <strong>Türkiye’den Doğan Bir Marka</strong>
+              <strong>Değerlerimiz</strong>
             </p>
             <p>
-              Türkiye sağlık sektörünün gelişimine yönelik pek çok yeniliğe imza
-              atan Çapa Medikal, farklı uzmanlıklar gerektiren ürünler sunan
-              iştirakleri dışında, kendi bünyesindeki Nextech markası altında
-              oluşturduğu sarf malzemesi ürün grubuyla da globalleşme yolunda
-              önemli adımlar atıyor. Bu şekilde yalnızca Türkiye sağlık
-              sektörüne değil, Türkiye ekonomisine de katkı sağlayan Çapa
-              Medikal, 25. yılını kutladığı 2017 yılında Türkiye’nin ve dünyanın
-              sağlıklı bir geleceğe emin adımlarla yürümesine yardımcı oluyor.
+            Kalite, çalışanlara değer verme, iş etiği, müşteri odaklılığı, saygınlık ve hız.
+                        </p>
+                        <p>
+              <strong>Kalite Yaklaşımımız</strong>
             </p>
+            <p>
+            Çapa Medikal olarak her geçen gün yükselttiğimiz kalite anlayışımız ve yaklaşımımız kapsamında siz değerli müşterilerimize aşağıdaki prensipler doğrultusunda hizmet vermekteyiz;
+<br></br><br></br>
+Koşulsuz müşteri memnuniyetini sağlamak
+Satılan ürün kalitesini ve müşterilerimize yönelik süreçleri sürekli iyileştirmek
+Uygun fiyat politikası ile tüm halkımızın sağlık hizmetlerinden daha etkin şekilde yararlanmasını sağlamak
+Geniş ürün yelpazesi ile müşterilerimizin farklı ihtiyaçlarına çözüm getirmek
+Hızlı servis ağı ve kalifiye personelimiz ile pazar payımızı sürekli yükseltmek
+Personelimizin eğitimi ve bireysel gelişimi için gerekli altyapı ve çalışma ortamını sağlamak
+Eşitlik esasının hiç bozulmaması için uygun ortamı sağlamak, çeşitliliğe önem vermek
+Müşterilerimizin ve sektörümüzün talepleri doğrultusunda “yarın değil, bugün” felsefesini uygulamak
+Karşılaşacağımız tüm zorlukların asla mazeret olmayacağı bilinciyle hareket etmek
+                        </p>
           </Container>
         </section>
       </div>
